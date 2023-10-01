@@ -298,9 +298,10 @@ int main()
                 }
             }
             break;
+    	delete[] *e1;
         }
     }
-    delete[] *e1;
+    
     
     return 0;
 }
